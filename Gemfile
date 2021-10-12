@@ -15,3 +15,4 @@ gem "simplecov"
 gem "simplecov-console"
 gem "rubocop"
 gem 'pg'
+gem 'webrick'
