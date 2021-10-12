@@ -6,8 +6,8 @@
 feature "Viewing bookmarks" do
   scenario "can view the bookmarks" do
     visit("/bookmarks")
-    expect(page).to have_content "https://youtube.com"
-    expect(page).to have_content "https://github.com"
-    expect(page).to have_content "https://google.com"
+    expect(page).to have_content "http://www.makersacademy.com"
+    expect(page).to have_content "http://www.github.com"
+    expect(page).to have_content "http://www.google.com"
   end
 end
